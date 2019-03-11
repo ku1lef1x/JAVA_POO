@@ -4,11 +4,11 @@ public class Coche {
 	
 	//en esta clase irian las caracteristicas comunes de los coches
 	//ancho largo en cm, motor en cc, peso en kg
-	//encapsulamos datos con private para que solo sean accesibles desde aqui 
+	//hacemos datos private para encapsular y que solo sean accesibles desde esta clase
 		
 	private int ruedas, largo, ancho, motor, peso_plataforma;
 	
-	//aÃ±adimos nuevos datos
+	//añadimos nuevos datos
 	
 	String color;
 	
@@ -45,7 +45,7 @@ public class Coche {
 	
 	
 	//metodo setter (modificar valor propiedad)
-	//establecera el color del coche en azul, mas adelante iremos modificando.
+	//nos modificara el color de nuestro objeto coche a azul (iremos modificando)
 	
 	public void establece_color() {
 		
@@ -53,7 +53,8 @@ public class Coche {
 		
 	}
 	
-	//metodo getter para conocer color del coche, muestra el color del coche. 
+	//metodo getter para conocer color del coche
+	//mostrara el color del coche
 	
 	public String dime_color() {
 		

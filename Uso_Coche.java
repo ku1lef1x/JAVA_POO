@@ -6,13 +6,14 @@ public class Uso_Coche {
 		
 		//creamos los objetos
 		
-		Coche micoche = new Coche();			//instanciar una clase, ejemplar de clase, renault es instancia de la clase coche
+		Coche micoche = new Coche();			//instanciar una clase, ejemplar de clase, micoche es instancia de la clase coche
 		
-		micoche.establece_color();							//establecemos el color del coche como azul
+		//damos color al coche
+		micoche.establece_color();							//establecemos el color del coche como azul por defecto
+																	
+		System.out.println(micoche.dime_color());			//muestra que el color del coche es azul
 															//sino utilizamos el metodo setter no se establece color y 
 															//no muestra color en el mensaje ya que no hay ninguno establecido
-		
-		System.out.println(micoche.dime_color());			//muestra que el color del coche es azul 
 		
 	}
 
