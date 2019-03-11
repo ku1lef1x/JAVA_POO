@@ -5,7 +5,7 @@ public class Coche {
 	//en esta clase irian las caracteristicas comunes de los coches
 	//ancho largo en cm, motor en cc, peso en kg
 		
-	int ruedas, largo, ancho, motor, peso;
+	private int ruedas, largo, ancho, motor, peso;
 		
 	//creamos el metodo constructor
 		
