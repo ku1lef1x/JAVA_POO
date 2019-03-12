@@ -8,12 +8,18 @@ public class Uso_Coche {
 		
 		Coche micoche = new Coche();			//instanciar una clase, ejemplar de clase, micoche es instancia de la clase coche
 		
+		System.out.println(micoche.dime_datos_generales());
+		
 		//damos color al coche
-		micoche.establece_color();							//establecemos el color del coche como azul por defecto
+		micoche.establece_color("amarillo");				//establecemos el color del coche que queramos
 																	
 		System.out.println(micoche.dime_color());			//muestra que el color del coche es azul
 															//sino utilizamos el metodo setter no se establece color y 
 															//no muestra color en el mensaje ya que no hay ninguno establecido
+		
+		micoche.configura_asientos("no");					//ponemos asientos de cuero o no
+		
+		System.out.println(micoche.dime_asientos());		//mostramos si tiene o no asientos de cuero
 		
 	}
 
