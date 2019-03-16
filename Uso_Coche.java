@@ -1,5 +1,7 @@
 package poo_introduccion;
 
+import javax.swing.JOptionPane;
+
 public class Uso_Coche {
 
 	public static void main(String[] args) {
@@ -11,16 +13,24 @@ public class Uso_Coche {
 		System.out.println(micoche.dime_datos_generales());
 		
 		//damos color al coche
-		micoche.establece_color("amarillo");				//establecemos el color del coche que queramos
+		micoche.establece_color(JOptionPane.showInputDialog("Introduce el color"));				//establecemos el color del coche que queramos
 																	
 		System.out.println(micoche.dime_color());			//muestra que el color del coche es azul
 															//sino utilizamos el metodo setter no se establece color y 
 															//no muestra color en el mensaje ya que no hay ninguno establecido
 		
-		micoche.configura_asientos("no");					//ponemos asientos de cuero o no
+		//ponemos asientos de cuero o no
+		micoche.configura_asientos(JOptionPane.showInputDialog("Tiene el coche asientos de cuero?"));
 		
 		System.out.println(micoche.dime_asientos());		//mostramos si tiene o no asientos de cuero
 		
+		micoche.configura_climatizador(JOptionPane.showInputDialog("Tiene climatizador"));	 			//climatizador
+		
+		System.out.println(micoche.dime_climatizador());
+		
+		System.out.println(micoche.dime_peso_coche());		//indica el peso del coche
+		
+		System.out.println("El precio del coche es " + micoche.precio_coche());
 	}
 
 }

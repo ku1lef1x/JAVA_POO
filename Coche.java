@@ -5,16 +5,17 @@ public class Coche {
 	//en esta clase irian las caracteristicas comunes de los coches
 	//ancho largo en cm, motor en cc, peso en kg
 	//hacemos datos private para encapsular y que solo sean accesibles desde esta clase
+	//estas caracteristicas serian los atributos
 		
 	private int ruedas, largo, ancho, motor, peso_plataforma;
 	
-	//añadimos nuevos datos que no seran comunes, seran diferentes en cada coche.
+	//añadimos nuevos atributos o datos que no seran comunes, seran diferentes en cada coche.
 	//encapsulamos los datos para que solo sean accesibles con los canales adecuados (setters/getters);
 	
 	private String color;
 	
 	private int peso_total;
-	
+	 
 	private boolean asientos_cuero, climatizador;
 		
 	//creamos el metodo constructor
@@ -79,6 +80,36 @@ public class Coche {
 		}
 	}
 	
+	//getter para climatizador
+	
+	public String dime_climatizador() {
+		
+		if (climatizador == true) {
+			return "El coche tiene climatizado";
+		}
+		
+		else return "El coche tiene aire acondicionado";
+	}
+	
+	//getter para precio del coche
+	
+	public int precio_coche () {
+		
+		int precio_final = 10000;
+		
+		if (asientos_cuero == true) {
+			
+			precio_final += 2000;
+		}
+		
+		if (climatizador == true) {
+			
+			precio_final += 1500;
+		}
+		
+		return precio_final;
+	}
+	
 	
 	
 	
@@ -110,10 +141,43 @@ public class Coche {
 			
 			this.asientos_cuero = false;
 		}
-		
-		
-		
+			
 	}
+	
+	//setter para el climatizador
+	
+	public void configura_climatizador (String climatizador) {
+		if(climatizador.equalsIgnoreCase("si")==true) {
+			this.climatizador=true;
+		}else {
+			this.climatizador=false;
+		}
+	}
+	
+	//METODO SETTER Y GETTER; PRACTICA NO RECOMENDADA
+	//lo usaremos para establecer el peso
+	//pueden recibir parametros o no y en funcion de ello 
+	//Devolveran un valor u otro
+	
+	public String dime_peso_coche() {
+		
+		int peso_carroceria=500;
+		
+		peso_total = peso_plataforma + peso_carroceria;
+		
+		if (asientos_cuero == true) {
+			
+			peso_total = peso_total + 50;
+		}
+		if (climatizador == true) {
+			peso_total=peso_total+20;
+		}
+		
+		return "El peso del coche es " + peso_total;
+	}
+	
+	
+	
 	
 	
 }
