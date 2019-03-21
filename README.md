@@ -17,8 +17,8 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 08. Coche y Uso_Coche: fin construccion y uso del objeto. 
 09. Teclado / Escoger_Teclado ---> Repaso con otro ejemplo de creacion clases, clase constructora, objeto, getters y setters...
 10. Uso_Empleados ---> Ejemplo de como en un solo archivo construir varias clases (se obvia la modularizacion, no recomendado)
-11
-12.
+11. Empleados_Constantes
+12. Constantes ---> en el punto 11 y 12 veremos el uso de las constantes en poo, asi como el uso de la palabra reservada static 
 13.
 14.
 15.
