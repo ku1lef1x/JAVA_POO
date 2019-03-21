@@ -19,7 +19,7 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 10. Uso_Empleados ---> Ejemplo de como en un solo archivo construir varias clases (se obvia la modularizacion, no recomendado)
 11. Empleados_Constantes
 12. Constantes ---> en el punto 11 y 12 veremos el uso de las constantes en poo 
-13. Empleados_Static ---> uso palabra clave static
+13. Empleados_Static ---> uso palabra reservada o modificador static
 14.
 15.
 16.
