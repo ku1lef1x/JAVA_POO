@@ -23,7 +23,7 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 14. Static ---> uso palabra reservada o modificar static. 
 15. Uso_Empleados ---> Modificación del ejemplo numero 10. Explicacion de la sobrecarga de constructores y metodos. 
 16. Herencia I ---> archivos: Herencia, Furgoneta, Uso_Herencia
-17.
+17. Herencia II ---> archivos: Empleado, Jefatura, Empresa.
 18.
 19.
 20.
