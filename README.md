@@ -25,5 +25,5 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 16. Herencia I ---> archivos: Herencia, Furgoneta, Uso_Herencia
 17. Herencia II ---> archivos: Empleado, Jefatura, Empresa.
 18. Casting de objetos y funcionamiento palabra reservada final en metodos y clases ---> archivos: Empleado, Jefatura, Empresa.
-19.
+19. Clases y metodos abstractos ---> Uso_Persona
 20.
