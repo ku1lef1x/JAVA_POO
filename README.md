@@ -24,6 +24,6 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 15. Uso_Empleados ---> Modificación del ejemplo numero 10. Explicacion de la sobrecarga de constructores y metodos. 
 16. Herencia I ---> archivos: Herencia, Furgoneta, Uso_Herencia
 17. Herencia II ---> archivos: Empleado, Jefatura, Empresa.
-18.
+18. Casting de objetos y funcionamiento palabra reservada final en metodos y clases ---> archivos: Empleado, Jefatura, Empresa.
 19.
 20.
