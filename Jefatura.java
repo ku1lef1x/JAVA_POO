@@ -2,7 +2,7 @@
 
 package herenciaII;
 
-public class Jefatura extends Empleado {
+public final class Jefatura extends Empleado {   //indicar final delante de la clase hace que no pueda heredar otra clase de ella
 	
 	private double incentivo;
 	
@@ -20,15 +20,22 @@ public class Jefatura extends Empleado {
 		incentivo = b;		
 	}
 	
-	public double dameSueldo() {					//este metodo invalida para Jefatura el dameSueldo() de Empleado
+	public final double dameSueldo() {					//este metodo invalida para Jefatura el dameSueldo() de Empleado
+		//indicar el metodo final hace que no se pueda sobreescribir mas
 		
 		double sueldoJefe = super.dameSueldo();		//llamamos a dameSueldo de la clase padre
 		
 		return sueldoJefe + incentivo;
-	}
-	
-	
-	
-	
+	}	
 
 }
+
+
+/*
+ * Por tanto,  
+ * 
+ * Final delante de una clase: Impide que otra clase pueda heredar de ella
+ * 
+ * Final delante de un metodo: Hace que el metodo no pueda ser sobreescrito
+ * */
+ 

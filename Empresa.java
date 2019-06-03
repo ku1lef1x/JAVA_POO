@@ -32,6 +32,21 @@ public class Empresa {
 			
 			System.out.println(e.nombre + "\n" + e.dameFechaContrato() + "\n" + e.dameSueldo());
 		}
+		
+		// Si queremos transformar un objeto en otro tipo:	
+		// Tipo_dato nombre_objeto = (Tipo al que vamos a convertir) objeto_a_convertir;
+		// Se debe hacer con sentido, un empleado no siempre es un jefe asi que no se le podria aplicar casting
+		Jefatura jefa_Finanzas = (Jefatura) empleados [1];
+		
+		//este proceso se denomina Casting y nos permite, al ser un array de empleados, 
+		//poder aplicar metodos de Jefatura en la posicion 1 del array. 		
+		jefa_Finanzas.estableceIncentivo(200.00);
+		
+		//recorremos para ver los cambios		
+		for (Empleado e:empleados) {
+			
+			System.out.println(e.nombre + "\n" + e.dameFechaContrato() + "\n" + e.dameSueldo());
+		}
 
 	}
 
