@@ -27,3 +27,4 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 18. Casting de objetos y funcionamiento palabra reservada final en metodos y clases ---> archivos: Empleado, Jefatura, Empresa.
 19. Clases y metodos abstractos ---> Uso_Persona
 20. Modificadores de acceso ---> archivos: Clase1, Clase2, Clase3. 
+21. Tipos Enumerados ---> archivos: Uso_Tallas, Uso_Tallas2
