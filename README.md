@@ -29,3 +29,4 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 20. Modificadores de acceso ---> archivos: Clase1, Clase2, Clase3. 
 21. Tipos Enumerados ---> archivos: Uso_Tallas, Uso_Tallas2
 22. Interfaces predefinidas ---> Interfaces.
+23. Interfaces creadas por el usuario ---> InterfacesII, interfaz Jefes, interfaz Trabajadores. 
