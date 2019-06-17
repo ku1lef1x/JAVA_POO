@@ -70,6 +70,26 @@ public static void main(String[] args) {
 		//creamos un jefe (hereda de empleado) en la segunda posicion del array
 		empleados [1] = jefe1;
 		
+		//instanciamos un objeto usando el principio de sustitucion
+		
+		Empleado director_comercial = new Jefatura("Albolito", 50000, 1996, 2, 19);
+		
+		// USO INSTANCEOF (para comprobar si una instancia pertenece a una clase u otra)
+		//creamos instancia perteneciente a la interfaz, pero del tipo empleado 
+		Comparable ejemplo = new Empleado ("Pokemon", 50500, 1998, 1, 1);
+		
+		//comprobamos si una instancia pertenece a una clase u otra:
+		
+		if(director_comercial instanceof Empleado) {
+			
+			System.out.println("Es de tipo Jefatura");
+		}
+		
+		if (ejemplo instanceof Comparable) {
+			
+			System.out.println("Implementa la interfaz comparable");
+		}
+		
 		//recorremos el array para subir el sueldo al jefe con el incentivo establecido anteriormente
 		for (int i=1; i<empleados.length; i++) {
 			
