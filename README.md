@@ -30,3 +30,4 @@ ORDEN A SEGUIR PARA QUE TODO SEA ENTENDIBLE:
 21. Tipos Enumerados ---> archivos: Uso_Tallas, Uso_Tallas2
 22. Interfaces predefinidas ---> Interfaces.
 23. Interfaces creadas por el usuario ---> InterfacesII, interfaz Jefes, interfaz Trabajadores. 
+24. Creación Temporizador ---> PruebaTemporizador.
